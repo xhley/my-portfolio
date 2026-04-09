@@ -17,14 +17,20 @@ function Home() {
   return (
     <main>
       <section className="hero">
+        <p className="hero-tag">Welcome to my portfolio ✿</p>
         <h1>Hi, I’m Ashley Flores</h1>
         <p>
           Computer science student interested in web development, UI design,
           and building creative projects with code.
         </p>
+
+        <div className="hero-buttons">
+          <a href="#projects" className="primary-btn">View Projects</a>
+          <a href="#contact" className="secondary-btn">Contact Me</a>
+        </div>
       </section>
 
-      <section id="about" className="section">
+      <section id="about" className="section about-card">
         <h2>About Me</h2>
         <p>
           I am a student learning modern web development with React,
@@ -43,11 +49,15 @@ function Home() {
         </div>
       </section>
 
-      <section id="contact" className="section">
+      <section id="contact" className="section contact-card">
         <h2>Contact</h2>
         <p>Email: ashleyflores@example.com</p>
         <p>GitHub: github.com/xhley</p>
       </section>
+
+      <footer className="footer">
+        <p>Made with ♡ by Ashley Flores</p>
+      </footer>
     </main>
   )
 }

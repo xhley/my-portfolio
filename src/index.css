@@ -189,3 +189,66 @@ body {
     padding: 1.5rem;
   }
 }
+.hero-tag {
+  font-size: 1rem;
+  color: #bf708a;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.hero-buttons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.primary-btn,
+.secondary-btn {
+  text-decoration: none;
+  padding: 0.85rem 1.4rem;
+  border-radius: 999px;
+  font-weight: 700;
+  transition: 0.2s ease;
+}
+
+.primary-btn {
+  background: #d88ca0;
+  color: white;
+  box-shadow: 0 8px 18px rgba(216, 140, 160, 0.25);
+}
+
+.primary-btn:hover {
+  background: #c97890;
+  transform: translateY(-2px);
+}
+
+.secondary-btn {
+  background: white;
+  color: #bf708a;
+  border: 1px solid #efc8d3;
+}
+
+.secondary-btn:hover {
+  background: #fff3f7;
+  transform: translateY(-2px);
+}
+
+.about-card,
+.contact-card {
+  background: #ffffff;
+  border-radius: 28px;
+  box-shadow: 0 8px 22px rgba(200, 140, 160, 0.1);
+  padding: 2.5rem;
+  margin-top: 2rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem 1rem 3rem;
+  color: #a06f82;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
