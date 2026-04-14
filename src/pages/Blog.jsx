@@ -14,7 +14,7 @@ function Blog() {
 
         <img
           src="/my-portfolio/beach.jpg"
-          alt="Spring break beach view"
+          alt="Spring break view"
           className="blog-image"
         />
 
